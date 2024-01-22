@@ -9,3 +9,6 @@ RFM is commonly used in marketing to evaluate a client’s value based on their:
 # References
 Based on this [tutorial](https://www.datacamp.com/tutorial/pyspark-tutorial-getting-started-with-pyspark)
 
+# Dependencies
+
+Use python3.11 because python3.12 doesn't ship with distutils as part of the standard library. This causes issues with pyspark 3.5.0.
